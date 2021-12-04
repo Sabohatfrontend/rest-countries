@@ -8,7 +8,7 @@
 @font-face {
   font-family: "Nunito Sans";
   src: url("../fonts/NunitoSans-ExtraBold.woff2") format("woff2"),
-       url("../fonts/NunitoSans-ExtraBold.woff") format("woff");
+  url("../fonts/NunitoSans-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -17,7 +17,7 @@
 @font-face {
   font-family: "Nunito Sans";
   src: url("../fonts/NunitoSans-SemiBold.woff2") format("woff2"),
-       url("../fonts/NunitoSans-SemiBold.woff") format("woff");
+  url("../fonts/NunitoSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@
 @font-face {
   font-family: "Nunito Sans";
   src: url("../fonts/NunitoSans-Regular.woff2") format("woff2"),
-       url("../fonts/NunitoSans-Regular.woff") format("woff");
+  url("../fonts/NunitoSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -35,7 +35,7 @@
 @font-face {
   font-family: "Nunito Sans";
   src: url("../fonts/NunitoSans-Light.woff2") format("woff2"),
-       url("../fonts/NunitoSans-Light.woff") format("woff");
+  url("../fonts/NunitoSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -51,7 +51,7 @@ html{
 *,
 *::before
 *::after{
-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body{
@@ -83,4 +83,62 @@ img{
 
 .main-content{
   flex-grow: 1;
+}
+
+.site-header {
+  background-color: var(--bg-white);
+  padding-top: 23px;
+  padding-bottom: 24px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin: 0;
+  margin-right: auto;
+  white-space: nowrap;
+}
+
+.site-logo-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.site-logo-link:hover{
+  color: rgb(114, 114, 187);
+}
+
+.site-logo-link:active{
+  opacity: 0.6;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  white-space: nowrap;
+  padding: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+}
+
+.button-moon{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 8px;
 }
