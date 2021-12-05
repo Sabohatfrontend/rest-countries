@@ -4,6 +4,7 @@
   --bg-grey: #F2F2F2;
   --bg-white: #fff;
   --outline-color:#2B3844;
+  --hover-color: rgb(114, 114, 187);
 }
 
 @font-face {
@@ -121,7 +122,7 @@ img{
 }
 
 .site-logo-link:hover{
-  color: rgb(114, 114, 187);
+  color: var(--hover-color);
 }
 
 .site-logo-link:active{
@@ -137,6 +138,14 @@ img{
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+}
+
+.button:hover{
+  color: var(--hover-color);
+}
+
+.button:active{
+  opacity: 0.8;
 }
 
 .button-content {
