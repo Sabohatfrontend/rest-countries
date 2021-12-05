@@ -12,7 +12,9 @@
   --text-color: var(--text-black);
   --search-color: var(--grey);
   --outline-color: var(--bg-header-dark);
-
+  --search-icon-white: url("../img/icon-search-black.svg");
+  --search-icon-dark: url("../img/icon-search-white.svg");
+  --search-icon: var(--search-icon-white);
 }
 
 .dark-mode{
@@ -21,6 +23,7 @@
   --text-color: var(--white);
   --search-color: var(--white);
   --outline-color: var(--white);
+  --search-icon: var(--search-icon-dark);
 }
 
 @font-face {
@@ -194,7 +197,7 @@ img{
   border-radius: 5px;
   margin-right: auto;
   color: var(--search-color);
-  background-image: url("../img/icon-search-black.svg");
+  background-image: var(--search-icon);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left 32px center;
