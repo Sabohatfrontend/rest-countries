@@ -185,6 +185,7 @@ img{
   flex-wrap: wrap;
   margin-left: -75px;
 }
+
 .country-link {
   max-width: 264px;
   margin-left: 75px;
@@ -231,4 +232,17 @@ img{
 
 .country-text:not(:last-child){
   margin-bottom: 8px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .global-search-input {
+    background-image: url("../img/icon-search-black.svg");
+  }
+
 }
