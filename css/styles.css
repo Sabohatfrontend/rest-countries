@@ -3,6 +3,7 @@
   --text-color: #111517;
   --bg-grey: #F2F2F2;
   --bg-white: #fff;
+  --outline-color:#2B3844;
 }
 
 @font-face {
@@ -52,6 +53,11 @@ html{
 *::before,
 *::after{
   box-sizing: inherit;
+}
+
+*:focus{
+  outline: 2px dashed var(--outline-color);
+  outline-offset: 3px;
 }
 
 body{
