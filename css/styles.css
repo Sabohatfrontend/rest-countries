@@ -2,12 +2,13 @@
 :root{
   --text-black: #111517;
   --white: #fff;
+  --bg-grey: #fafafa;
   --hover-color: rgb(114, 114, 187);
   --bg-header-dark: #2B3844;
   --bg-color-dark: #202C36;
   --grey: #848484;
   --bg-header: var(--white);
-  --bg-color: var(--white);
+  --bg-color: var(--bg-grey);
   --text-color: var(--text-black);
   --search-color: var(--grey);
   --outline-color: var(--bg-header-dark);
