@@ -1,20 +1,21 @@
 /* GLOBAL */
 :root{
   --text-black: #111517;
-  --bg-grey: #F2F2F2;
   --white: #fff;
   --hover-color: rgb(114, 114, 187);
   --bg-header-dark: #2B3844;
   --bg-color-dark: #202C36;
   --grey: #848484;
   --bg-header: var(--white);
-  --bg-color: var(--bg-grey);
+  --bg-color: var(--white);
   --text-color: var(--text-black);
   --search-color: var(--grey);
   --outline-color: var(--bg-header-dark);
   --search-icon-white: url("../img/icon-search-black.svg");
   --search-icon-dark: url("../img/icon-search-white.svg");
   --search-icon: var(--search-icon-white);
+  --pointer-white: url("../img/pointer.svg");
+  --back-icon:var(--pointer-white);
 }
 
 .dark-mode{
@@ -274,6 +275,104 @@ img{
   margin-bottom: 8px;
 }
 
+
+.text-country{
+  font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+
+}
+
+.country-container {
+  padding-top: 32px;
+  padding-bottom: 298px;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 39px 10px 62px;
+  margin-bottom: 80px;
+  text-decoration: none;
+  background-image: var(--back-icon);
+  background-repeat: no-repeat;
+  background-position: 32px center;
+  background-size: auto;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-color);
+}
+
+.content-country {
+  display: flex;
+  align-items: center;
+}
+
+.flag-country {
+  width: 560px;
+  height: 401px;
+  object-fit: cover;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.0294384);
+}
+
+.country-wrapper {
+}
+
+.country-name {
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.text-wrap {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.text-country {
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.text-country:not(:last-child){
+  margin-right: 141px;
+}
+
+.country-border-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.country-border {
+  margin: 0;
+  margin-right: 42px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.country-border-link {
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+  border-radius: 2px;
+  color: var(--text-color);
+  padding: 5px 27px;
+  font-weight: 300;
+  line-height: 19px;
+
+}
+
+.country-border-link :not(:last-child){
+  margin-right: 10px;
+}
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
