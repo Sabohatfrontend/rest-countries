@@ -228,6 +228,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   margin-left: -75px;
+  margin-bottom: -72px;
 }
 
 .country-link {
