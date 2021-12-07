@@ -313,9 +313,6 @@ img{
   box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.0294384);
 }
 
-.country-wrapper {
-}
-
 .country-name {
   margin-top: 0;
   margin-bottom: 23px;
@@ -331,13 +328,18 @@ img{
 
 .text-country {
   margin-top: 0;
-  font-weight: 600;
+  width: 252px;
+  font-weight: 300;
   font-size: 16px;
   line-height: 32px;
 }
 
 .text-country:not(:last-child){
-  margin-right: 141px;
+  margin-right: 96px;
+}
+
+.text-country-info{
+  font-weight: 600;
 }
 
 .country-border-wrapper {
