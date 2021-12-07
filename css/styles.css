@@ -289,6 +289,7 @@ img{
   padding: 10px 39px 10px 62px;
   margin-bottom: 80px;
   text-decoration: none;
+  background-color: var(--bg-header);
   background-image: var(--back-icon);
   background-repeat: no-repeat;
   background-position: 32px center;
@@ -296,6 +297,8 @@ img{
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+  border-radius: 6px;
   color: var(--text-color);
 }
 
